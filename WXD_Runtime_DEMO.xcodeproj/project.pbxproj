@@ -15,6 +15,8 @@
 		F8126A2A20A53D38004522E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8126A2920A53D38004522E4 /* main.m */; };
 		F8126A3420A53D38004522E4 /* WXD_Runtime_DEMOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8126A3320A53D38004522E4 /* WXD_Runtime_DEMOTests.m */; };
 		F8126A3F20A53D38004522E4 /* WXD_Runtime_DEMOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8126A3E20A53D38004522E4 /* WXD_Runtime_DEMOUITests.m */; };
+		F8126A4E20A592D6004522E4 /* UIView+DefaultColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F8126A4D20A592D6004522E4 /* UIView+DefaultColor.m */; };
+		F8126A5120A930D8004522E4 /* RuntimeAutoNSCodingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F8126A5020A930D8004522E4 /* RuntimeAutoNSCodingModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		F8126A3A20A53D38004522E4 /* WXD_Runtime_DEMOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WXD_Runtime_DEMOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8126A3E20A53D38004522E4 /* WXD_Runtime_DEMOUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXD_Runtime_DEMOUITests.m; sourceTree = "<group>"; };
 		F8126A4020A53D38004522E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8126A4C20A592D6004522E4 /* UIView+DefaultColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+DefaultColor.h"; sourceTree = "<group>"; };
+		F8126A4D20A592D6004522E4 /* UIView+DefaultColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+DefaultColor.m"; sourceTree = "<group>"; };
+		F8126A4F20A930D8004522E4 /* RuntimeAutoNSCodingModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuntimeAutoNSCodingModel.h; sourceTree = "<group>"; };
+		F8126A5020A930D8004522E4 /* RuntimeAutoNSCodingModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeAutoNSCodingModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				F8126A1B20A53D38004522E4 /* AppDelegate.m */,
 				F8126A1D20A53D38004522E4 /* ViewController.h */,
 				F8126A1E20A53D38004522E4 /* ViewController.m */,
+				F8126A4C20A592D6004522E4 /* UIView+DefaultColor.h */,
+				F8126A4D20A592D6004522E4 /* UIView+DefaultColor.m */,
+				F8126A4F20A930D8004522E4 /* RuntimeAutoNSCodingModel.h */,
+				F8126A5020A930D8004522E4 /* RuntimeAutoNSCodingModel.m */,
 				F8126A2020A53D38004522E4 /* Main.storyboard */,
 				F8126A2320A53D38004522E4 /* Assets.xcassets */,
 				F8126A2520A53D38004522E4 /* LaunchScreen.storyboard */,
@@ -265,6 +275,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8126A5120A930D8004522E4 /* RuntimeAutoNSCodingModel.m in Sources */,
+				F8126A4E20A592D6004522E4 /* UIView+DefaultColor.m in Sources */,
 				F8126A1F20A53D38004522E4 /* ViewController.m in Sources */,
 				F8126A2A20A53D38004522E4 /* main.m in Sources */,
 				F8126A1C20A53D38004522E4 /* AppDelegate.m in Sources */,
